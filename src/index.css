@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+[data-theme="portfoliored"] {
+  color-scheme: light;
+  --color-base-100: oklch(98% 0.01 20);
+  --color-base-200: oklch(95% 0.02 20);
+  --color-base-300: oklch(90% 0.03 20);
+  --color-base-content: oklch(28% 0.04 20);
+  --color-primary: oklch(58% 0.23 25);
+  --color-primary-content: oklch(98% 0.01 20);
+  --color-secondary: oklch(68% 0.17 18);
+  --color-secondary-content: oklch(98% 0.01 20);
+  --color-accent: oklch(72% 0.14 45);
+  --color-accent-content: oklch(20% 0.02 20);
+  --color-neutral: oklch(30% 0.03 20);
+  --color-neutral-content: oklch(96% 0.01 20);
+  --color-info: oklch(66% 0.16 240);
+  --color-info-content: oklch(98% 0.01 240);
+  --color-success: oklch(70% 0.16 155);
+  --color-success-content: oklch(98% 0.01 155);
+  --color-warning: oklch(78% 0.16 75);
+  --color-warning-content: oklch(24% 0.03 75);
+  --color-error: oklch(60% 0.24 25);
+  --color-error-content: oklch(98% 0.01 20);
+}
