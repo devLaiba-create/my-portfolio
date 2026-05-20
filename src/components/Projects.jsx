@@ -60,7 +60,7 @@ export default function Projects() {
                   <img
                     src={project.image}
                     alt={`${project.title} preview`}
-                    className="h-80 w-full object-cover object-top"
+                    className="w-full object-contain"
                   />
                 </div>
               </div>
