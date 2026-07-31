@@ -5,7 +5,7 @@ const projects = [
       "TalkVerse is a full-stack messaging app built with the MERN stack and Socket.io. It lets users sign up, log in, and chat with others in real time. You can see who’s online, send messages instantly, and also share images. The frontend is built with React and Tailwind CSS, and the backend uses Node.js, Express, and MongoDB. This project helped me understand how real-time communication works and how frontend and backend connect together in a live app.",
     image: "/projects-ss/realtime-chat-app-project.png",
     liveUrl: "https://realtime-chat-app-tnkq.onrender.com",
-    codeUrl: "https://github.com/laibatariq110/realtime-chat-app",
+    codeUrl: "https://github.com/devLaiba-create/realtime-chat-app",
   },
   {
     title: "Full-Stack Messaging Platform",
@@ -13,7 +13,7 @@ const projects = [
       "A real-time messaging application built with MongoDB, Express, React, and Node.js. Users can create accounts, log in securely, and chat with others instantly using Socket.IO. The app also shows online users and includes a responsive chat interface with a conversation sidebar and search feature. Building this project helped me improve my understanding of authentication, realtime communication, state management with Zustand, and connecting frontend and backend in a full-stack application.",
     image: "/projects-ss/mern-chat-app-project.png",
     liveUrl: "https://mern-chat-app-z0tw.onrender.com/",
-    codeUrl: "https://github.com/laibatariq110/mern-chat-app",
+    codeUrl: "https://github.com/devLaiba-create/mern-chat-app",
   },
   {
     title: "MERN Product Store",
@@ -21,7 +21,7 @@ const projects = [
       "MERN Product Store is a full-stack web application built with the MERN stack that allows users to manage products through complete CRUD functionality. Users can create, view, update, and delete products in a clean and responsive interface with light and dark mode support. The frontend was developed using React, Vite, Chakra UI, and Zustand for state management, while the backend was built with Node.js, Express.js, and MongoDB. The project also includes RESTful API integration, form handling, responsive UI design, and production deployment, helping strengthen my understanding of full-stack application architecture and client-server communication.",
     image: "/projects-ss/mern-product-store-project.png",
     liveUrl: "https://mern-product-store-q9i0.onrender.com",
-    codeUrl: "https://github.com/laibatariq110/mern-product-store",
+    codeUrl: "https://github.com/devLaiba-create/mern-product-store",
   },
   {
     title: "MERN Thinkboard",
@@ -29,7 +29,7 @@ const projects = [
       "ThinkBoard is a full-stack MERN notes application for creating, viewing, updating, and deleting notes in a clean, responsive interface. It combines a React frontend with an Express and MongoDB backend, and includes Upstash-powered rate limiting to protect the API from abuse.",
     image: "/projects-ss/thinkboard-project.png",
     liveUrl: "https://mern-thinkboard-kapm.onrender.com",
-    codeUrl: "https://github.com/laibatariq110/mern-thinkboard",
+    codeUrl: "https://github.com/devLaiba-create/mern-thinkboard",
   },
 ];
 

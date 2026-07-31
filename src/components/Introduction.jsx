@@ -62,7 +62,7 @@ export default function Introduction() {
 
         <div className="flex gap-4 pt-2">
           <a
-            href="https://github.com/laibatariq110"
+            href="https://github.com/devLaiba-create"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-circle btn-outline border-primary/30 text-primary hover:border-primary hover:bg-primary hover:text-primary-content"
