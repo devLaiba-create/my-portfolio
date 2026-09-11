@@ -2,16 +2,21 @@ import { FiMail, FiGithub, FiLayers } from "react-icons/fi";
 import {
   SiReact,
   SiJavascript,
+  SiTypescript,
   SiHtml5,
   SiCss,
   SiTailwindcss,
   SiDaisyui,
+  SiShadcnui,
+  SiVite,
+  SiReactrouter,
   SiNodedotjs,
   SiExpress,
   SiMongodb,
   SiMongoose,
   SiSocketdotio,
   SiAxios,
+  SiClerk,
   SiJsonwebtokens,
   SiCloudinary,
   SiGit,
@@ -19,21 +24,37 @@ import {
 } from "react-icons/si";
 
 const skills = [
+  // Frontend foundations
   { name: "HTML5", icon: SiHtml5, color: "text-orange-600" },
   { name: "CSS3", icon: SiCss, color: "text-blue-600" },
   { name: "JavaScript", icon: SiJavascript, color: "text-yellow-500" },
+  { name: "TypeScript", icon: SiTypescript, color: "text-blue-600" },
+
+  // React ecosystem
   { name: "React", icon: SiReact, color: "text-cyan-500" },
-  { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-sky-500" },
-  { name: "daisyUI", icon: SiDaisyui, color: "text-fuchsia-500" },
+  { name: "React Router", icon: SiReactrouter, color: "text-red-600" },
+  { name: "Vite", icon: SiVite, color: "text-purple-500" },
   { name: "Zustand", icon: FiLayers, color: "text-amber-700" },
   { name: "Axios", icon: SiAxios, color: "text-indigo-500" },
+
+  // UI and styling
+  { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-sky-500" },
+  { name: "daisyUI", icon: SiDaisyui, color: "text-fuchsia-500" },
+  { name: "shadcn/ui", icon: SiShadcnui, color: "text-base-content" },
+
+  // Backend and database
   { name: "Node.js", icon: SiNodedotjs, color: "text-green-600" },
   { name: "Express", icon: SiExpress, color: "text-base-content" },
   { name: "MongoDB", icon: SiMongodb, color: "text-green-500" },
   { name: "Mongoose", icon: SiMongoose, color: "text-red-700" },
-  { name: "Socket.io", icon: SiSocketdotio, color: "text-base-content" },
+  { name: "Socket.IO", icon: SiSocketdotio, color: "text-base-content" },
+
+  // Authentication and services
+  { name: "Clerk", icon: SiClerk, color: "text-violet-600" },
   { name: "JWT", icon: SiJsonwebtokens, color: "text-pink-600" },
   { name: "Cloudinary", icon: SiCloudinary, color: "text-blue-500" },
+
+  // Version control
   { name: "Git", icon: SiGit, color: "text-orange-500" },
   { name: "GitHub", icon: SiGithub, color: "text-base-content" },
 ];
