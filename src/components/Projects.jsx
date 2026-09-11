@@ -1,5 +1,13 @@
 const projects = [
   {
+  title: "Spotify Clone",
+  description:
+  "A full-stack Spotify-inspired music streaming platform built with the MERN stack. Users can securely sign in, browse featured and trending music, play songs, explore albums, chat with other users in real time, and view live listening activity. It also includes a protected admin dashboard for adding and managing songs and albums, with Cloudinary used for media uploads. The frontend uses React, TypeScript, Tailwind CSS, shadcn/ui, and Zustand, while the backend is powered by Node.js, Express, MongoDB, Clerk, and Socket.IO.",
+  image: "/projects-ss/spotify-clone-project.png",
+  liveUrl: "https://realtime-spotify-clone-3s6z.onrender.com/",
+  codeUrl: "https://github.com/devLaiba-create/realtime-spotify-clone",
+},
+  {
     title: "TalkVerse",
     description:
       "TalkVerse is a full-stack messaging app built with the MERN stack and Socket.io. It lets users sign up, log in, and chat with others in real time. You can see who’s online, send messages instantly, and also share images. The frontend is built with React and Tailwind CSS, and the backend uses Node.js, Express, and MongoDB. This project helped me understand how real-time communication works and how frontend and backend connect together in a live app.",
