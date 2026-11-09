@@ -1,4 +1,4 @@
-import { FiMail, FiGithub, FiLayers } from "react-icons/fi";
+import { FiMail, FiGithub, FiLayers, FiCpu } from "react-icons/fi";
 import {
   SiReact,
   SiJavascript,
@@ -21,6 +21,7 @@ import {
   SiCloudinary,
   SiGit,
   SiGithub,
+  SiSanity,
 } from "react-icons/si";
 
 const skills = [
@@ -57,6 +58,11 @@ const skills = [
   // Version control
   { name: "Git", icon: SiGit, color: "text-orange-500" },
   { name: "GitHub", icon: SiGithub, color: "text-base-content" },
+
+  // Content management
+  { name: "Sanity CMS", icon: SiSanity, color: "text-red-500" },
+  { name: "Sanity Studio", icon: SiSanity, color: "text-orange-500" },
+  { name: "AI-assisted development", icon: FiCpu, color: "text-violet-500" },
 ];
 
 export default function Introduction() {
@@ -74,10 +80,10 @@ export default function Introduction() {
             Full-Stack Developer (MERN Stack)
           </h1>
           <p className="max-w-3xl text-lg leading-8 text-base-content/75">
-            I build full-stack web applications using the MERN stack, focusing
-            on smooth user experiences, real-time features, and solid backend
-            logic. I enjoy turning ideas into functional, responsive apps and
-            refining them until everything feels fast, clean, and reliable.
+            I build full-stack web applications with the MERN stack and create
+            content-driven websites with Sanity CMS. I also use AI coding tools
+            like Codex and Gemini to plan and implement features, then review
+            and refine the results.
           </p>
         </div>
 

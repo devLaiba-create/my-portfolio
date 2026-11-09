@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "Client Portfolio",
+    description:
+      "A React and Vite portfolio for a client, connected to Sanity CMS. I built a custom Sanity Studio so the client can manage projects and update homepage and contact copy. A one-time setup flow imports the existing work into the CMS.",
+    image: "/projects-ss/client-portfolio-img.png",
+    liveUrl: "https://rafay-portfolio-cyan.vercel.app",
+    liveLabel: "Visit Site",
+  },
+  {
   title: "Spotify Clone",
   description:
   "A full-stack Spotify-inspired music streaming platform built with the MERN stack. Users can securely sign in, browse featured and trending music, play songs, explore albums, chat with other users in real time, and view live listening activity. It also includes a protected admin dashboard for adding and managing songs and albums, with Cloudinary used for media uploads. The frontend uses React, TypeScript, Tailwind CSS, shadcn/ui, and Zustand, while the backend is powered by Node.js, Express, MongoDB, Clerk, and Socket.IO.",
@@ -88,16 +96,18 @@ export default function Projects() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Try
+                    {project.liveLabel ?? "Try"}
                   </a>
-                  <a
-                    href={project.codeUrl}
-                    className="btn btn-outline border-primary/30 text-primary hover:border-primary hover:bg-primary hover:text-primary-content"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Code
-                  </a>
+                  {project.codeUrl && (
+                    <a
+                      href={project.codeUrl}
+                      className="btn btn-outline border-primary/30 text-primary hover:border-primary hover:bg-primary hover:text-primary-content"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Code
+                    </a>
+                  )}
                 </div>
               </div>
             </article>

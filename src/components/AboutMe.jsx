@@ -32,7 +32,11 @@ export default function AboutMe() {
             real-time communication, JWT-based authentication, and integrating
             services like Cloudinary for image uploads. I like turning ideas
             into functional, polished apps and improving them through debugging
-            and iteration.
+            and iteration. Recently, I built a portfolio website for a client
+            and connected it to Sanity CMS. I set up a custom Sanity Studio so
+            the client can manage projects and update homepage and contact copy.
+            I also use AI coding assistants like Codex and Gemini to support
+            research and implementation, then review and refine their output.
           </p>
         </div>
       </div>
